@@ -48,6 +48,10 @@
     flex-direction: column;
 }
 
+.btn-buy{
+    background-color: bisque;
+}
+
 footer {
     background-color: bisque;
     text-align: right;
