@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <h4>Выберете размер гамбургера</h4>
+        <p><input type="radio" name="size" value="big"> Большой</p>
+        <p><input type="radio" name="size" value="small"> Маленький</p>
+        <h4>Выберете начинку</h4>
+        <p><input type="radio" name="stuffing" value="cheese">Сыр</p>
+        <p><input type="radio" name="stuffing" value="latuce">Салат</p>
+        <p><input type="radio" name="stuffing" value="french-frize">Картофель</p>
+        <h4>Дополнительно</h4>
+        <p><input type="checkbox" name="dressing" value="seasoning">Специи</p>
+        <p><input type="checkbox" name="dressing" value="mayonnaise">Майонез</p>
+        <p><input type="button" onclick="myFunction()" value="Собрать гамбургер">
+        <input type="reset" onclick="resetFunction()" value="Сбросить"></p>
+    </form>
+    <div class="total">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
